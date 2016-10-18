@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.WelcomeActivity">
+
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/banner_welcome"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:banner_indicatorGravity="bottom"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_isNumberIndicator="false"
+        app:banner_numberIndicatorTextColor="@android:color/holo_red_dark"
+        app:banner_numberIndicatorTextSize="10sp"
+        app:banner_transitionEffect="accordion" />
+
+</RelativeLayout>

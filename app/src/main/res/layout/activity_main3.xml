@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    tools:context="com.origiontest.activity.Main3Activity">
+
+    <ScrollView
+        android:id="@+id/main_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomBar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/main3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="啦啦啦啦"/>
+
+            <cn.bingoogolapple.bgabanner.BGABanner
+                android:id="@+id/banner_main_cube"
+                android:layout_height="200dp"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/main3_title"
+                app:banner_indicatorGravity="bottom|right"
+                app:banner_pointContainerBackground="@android:color/transparent"
+                app:banner_isNumberIndicator="false"
+                app:banner_numberIndicatorTextColor="@android:color/holo_red_dark"
+                app:banner_numberIndicatorTextSize="10sp"
+                app:banner_transitionEffect="accordion" />
+
+            <LinearLayout
+                android:id="@+id/main3_menu_ll0"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingTop="8dp"
+                android:layout_below="@+id/banner_main_cube">
+
+                <RelativeLayout
+                    android:id="@+id/menu_button01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/banner_main_cube">
+
+                    <ImageView
+                        android:id="@+id/menu_button01_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_button01_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_button01_image"
+                        android:text="001"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/menu_button02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/banner_main_cube">
+
+                    <ImageView
+                        android:id="@+id/menu_button02_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_button02_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_button02_image"
+                        android:text="002"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/menu_button03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/banner_main_cube">
+
+                    <ImageView
+                        android:id="@+id/menu_button03_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_button03_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_button03_image"
+                        android:text="003"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingTop="8dp"
+                android:layout_below="@+id/main3_menu_ll0">
+
+                <RelativeLayout
+                    android:id="@+id/menu_ll1_button01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/menu_ll1_button01_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_ll1_button01_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_ll1_button01_image"
+                        android:text="001"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/menu_ll1_button02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/menu_ll1_button02_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_ll1_button02_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_ll1_button02_image"
+                        android:text="002"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/menu_ll1_button03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/banner_main_cube">
+
+                    <ImageView
+                        android:id="@+id/menu_ll1_button03_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/menu_ll1_button03_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/menu_ll1_button03_image"
+                        android:text="003"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/test_buttonllll"
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+            <Button
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+            <Button
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+            <Button
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+            <Button
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+            <Button
+                android:layout_below="@+id/main3_menu_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/menu_button_selector"
+                android:text="press"/>
+
+
+        </LinearLayout>
+
+</ScrollView>
+<!--    <LinearLayout
+        android:id="@+id/mainPage_bottom_navigator"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_red_light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3333333333333"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="88888888888"/>
+
+    </LinearLayout>-->
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_behavior="shifting"
+        app:bb_tabXmlResource="@xml/bottombar_tabs" />
+
+
+
+</RelativeLayout>

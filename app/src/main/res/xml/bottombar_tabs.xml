@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_favorites"
+        icon="@mipmap/ic_launcher"
+        barColorWhenSelected="#CC0033"
+        title="Favorites" />
+    <tab
+        id="@+id/tab_news"
+        icon="@mipmap/ic_launcher"
+        barColorWhenSelected="#00BFFF"
+        inActiveColor="#00FF00"
+        activeColor="#FF0000"
+        title="Friends" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@mipmap/ic_launcher"
+        barColorWhenSelected="#5D4037"
+        title="Nearby" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@mipmap/ic_launcher"
+        barColorWhenSelected="#00BFFF"
+        title="Friends" />
+    <tab
+        id="@+id/tab_personal"
+        icon="@mipmap/ic_launcher"
+        barColorWhenSelected="#00BFFF"
+        inActiveColor="#00FF00"
+        activeColor="#FF0000"
+        title="Friends" />
+
+</tabs>
